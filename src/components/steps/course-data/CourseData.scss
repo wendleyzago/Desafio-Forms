@@ -1,0 +1,49 @@
+.main-component {
+    width: 100%;
+}
+
+.header-component {
+    h2 {
+        border-bottom: 1px solid #ecf0f3;
+        padding: 10px;
+        font-weight: normal;
+        font-size: 16px;
+    }
+}
+
+
+#data-component {
+    padding: 0 10px;
+    
+    .datas {
+        display: flex;
+        justify-content: space-between;
+        
+        div {
+            display: flex;
+            flex-direction: column;
+    
+            .hide, .hideCurse {
+               color: transparent;
+            }
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            .actions-svg {
+                display: flex;
+                flex-direction: row;
+                font-size: 30px;
+                gap: 5px;
+
+                :hover {
+                    cursor:pointer
+                }
+            }
+        }
+    }
+}
