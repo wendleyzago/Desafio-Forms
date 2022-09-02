@@ -1,6 +1,5 @@
 import { CopyTwoTone, DeleteTwoTone,  PlusSquareTwoTone} from '@ant-design/icons'
-
-import "./CourseData.scss"
+import "../steps/user-registration/UserRegistration.scss"
 
 
 

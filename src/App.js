@@ -1,7 +1,7 @@
 import { Button, message, Steps } from "antd"
 import { useState } from 'react'
-import CourseData from "./components/steps/course-data/CourseData"
-import Step2 from "./components/steps/step2/Step2"
+import CourseData from "./components/steps/user-registration/UserRegistration"
+import RegisteredPeople from "./components/steps/registered-people/RegisteredPeople"
 
 import './App.css'
 import 'antd/dist/antd.css'
@@ -58,7 +58,7 @@ function App() {
     },
     {
       title: "Formato escolhido",
-      content: <Step2 forms={forms}/>
+      content: <RegisteredPeople forms={forms}/>
     },
     {
       title: "Confirmar dados",

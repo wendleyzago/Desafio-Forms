@@ -1,5 +1,5 @@
-import "./CourseData.scss"
-import Form from "./Form"
+import "./UserRegistration.scss"
+import Form from "../../form/Form"
 
 
 
